@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "小果的笔记",
   description: "A VitePress Sit",
+  base:'/docs/index.md',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
